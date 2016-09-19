@@ -1,0 +1,37 @@
+html {
+    font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, “Microsoft YaHei”, “微软雅黑”, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+@font-face {
+    font-family: "mijxy";
+    src: url("../fonts/custom/mijxy.eot"); /* IE9 */
+    src: url("../fonts/custom/mijxy.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/custom/mijxy.woff") format("woff"), /* chrome, firefox */
+    url("../fonts/custom/mijxy.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../fonts/custom/mijxy.svg#mijxy") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+.page-title {
+    font-family: "mijxy";
+    margin: 10px 0 10px 0;
+    font-size: 5rem;
+    letter-spacing: -1px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+.page-description {
+    font-family: "mijxy";
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    letter-spacing: 0.01rem;
+    color: rgba(0,0,0,0.8);
+}
