@@ -950,7 +950,7 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    font-family: "迷你简细圆", "Open Sans", sans-serif;
+    font-family: "迷你简细圆";
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
@@ -960,7 +960,7 @@ body.nav-opened .nav {
 }
 
 .page-description {
-    font-family: "迷你简细圆", "Open Sans", sans-serif;
+    font-family: "迷你简细圆";
     margin: 0;
     font-size: 2rem;
     line-height: 1.5em;
