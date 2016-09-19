@@ -27,7 +27,7 @@
    ========================================================================== */
 
 html {
-    font-family: sans-serif;
+    font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, “Microsoft YaHei”, “微软雅黑”, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
