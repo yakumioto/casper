@@ -16,22 +16,20 @@ html {
 }
 
 .page-title {
-    font-family: "mijxy";
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "mijxy", "Open Sans", sans-serif;
     color: #fff;
 }
 
 .page-description {
-    font-family: "mijxy";
     margin: 0;
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "mijxy", "Merriweather", serif;
     letter-spacing: 0.01rem;
     color: rgba(0,0,0,0.8);
 }
