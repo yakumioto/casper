@@ -117,11 +117,11 @@ td, th{ padding: 0; }
 
 @font-face {
     font-family: "mini";
-    src: url("../fonts/mini.eot"); /* IE9 */
-    src: url("../fonts/mini.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/mini.woff") format("woff"), /* chrome, firefox */
-    url("../fonts/mini.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-    url("../fonts/mini.svg#mini") format("svg"); /* iOS 4.1- */
+    src: url("../fonts/mini.eot?v=1"); /* IE9 */
+    src: url("../fonts/mini.eot?v=1?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/mini.woff?v=1") format("woff"), /* chrome, firefox */
+    url("../fonts/mini.ttf?v=1") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../fonts/mini.svg?v=1#mini") format("svg"); /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
 }
