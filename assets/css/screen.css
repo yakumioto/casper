@@ -119,16 +119,16 @@ td, th{ padding: 0; }
     font-family: "mini";
     src: url("../fonts/mini.eot?v=1"); /* IE9 */
     src: url("../fonts/mini.eot?v=1?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/mini.woff?v=1") format("woff"), /* chrome, firefox */
-    url("../fonts/mini.ttf?v=1") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-    url("../fonts/mini.svg?v=1#mini") format("svg"); /* iOS 4.1- */
+         url("../fonts/mini.woff?v=1") format("woff"), /* chrome, firefox */
+         url("../fonts/mini.ttf?v=1") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+         url("../fonts/mini.svg?v=1#mini") format("svg"); /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
 }
 
 /* Apply these base styles to all icons */
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "casper-icons", "Open Sans", sans-serif;
+[class^="icon-"]:before, [class*=" icon-"]:before [class*=" pages-"]:before{
+    font-family: "casper-icons", "mini", "Open Sans", sans-serif;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -950,7 +950,6 @@ body.nav-opened .nav {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    font-family: "mini";
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
@@ -960,7 +959,6 @@ body.nav-opened .nav {
 }
 
 .page-description {
-    font-family: "mini";
     margin: 0;
     font-size: 2rem;
     line-height: 1.5em;
