@@ -1,7 +1,5 @@
 html {
     font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, “Microsoft YaHei”, “微软雅黑”, sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
 }
 
 @font-face {
@@ -21,5 +19,5 @@ html {
 
 .page-description {
     font-family: "TitleDescription", "Merriweather", serif;
-    /*color: rgba(0,0,0,0.8);*/
+    color: rgba(255, 0, 0, 0.8)
 }
