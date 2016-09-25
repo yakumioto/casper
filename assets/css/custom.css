@@ -1,26 +1,71 @@
-html {
-    font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, “Microsoft YaHei”, “微软雅黑”, sans-serif;
-}
+body, button, input, select, textarea { color: #444; font-family: 'Alegreya Sans', 'Noto Sans', 'Segoe UI', 'Microsoft Yahei', 'Microsoft Jhenghei', sans-serif; outline: 0; }
 
 body { text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);}
 
+pre code, pre tt { line-height: 100%; }
+
+/*del { color: #767676; }*/
+h1 { font-size: 30px; line-height: 1.8; }
+h2 { font-size: 28px; }
+h3 { font-size: 26px; }
+h4 { font-size: 24px; }
+h5 { font-size: 22px; }
+h6 { font-size: 20px; }
+
+
 @font-face {
-    font-family: "TitleDescription";
-    src: url("../fonts/custom/TitleDescription.eot"); /* IE9 */
-    src: url("../fonts/custom/TitleDescription.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/custom/TitleDescription.woff") format("woff"), /* chrome, firefox */
-    url("../fonts/custom/TitleDescription.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
-    url("../fonts/custom/TitleDescription.svg#mijxy") format("svg"); /* iOS 4.1- */
+    font-family: "迷你简细圆";
+    src: url("../fonts/迷你简细圆/迷你简细圆.eot"); /* IE9 */
+    src: url("../fonts/迷你简细圆/迷你简细圆.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/迷你简细圆/迷你简细圆.woff") format("woff"), /* chrome, firefox */
+    url("../fonts/迷你简细圆/迷你简细圆.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../fonts/迷你简细圆/迷你简细圆.svg#mijxy") format("svg"); /* iOS 4.1- */
     font-style: normal;
     font-weight: normal;
 }
 
 .page-title {
-    font-family: "TitleDescription";
+    font-family: "迷你简细圆";
 }
 
 .page-description {
-    font-family: "TitleDescription";
+    font-family: "迷你简细圆";
     font-weight: bold;
     color: rgba(252, 201, 185, 0.8);
+    text-shadow: 0px 0px 1px rgba(23, 20, 18, 0.25);
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.disqus-notice {
+    display: block;
+    padding: 9px 9px;
+    margin: 20px 0 0 0;
+    font-family: "迷你简细圆";
+    font-size: 1.6rem;
+    text-align: center;
+    border: #e7eef2 1px solid;
+    color: rgba(252, 201, 185, 1);
+    text-shadow: 0px 0px 1px rgba(23, 20, 18, 0.25);
+    border-radius: 4px;
 }
