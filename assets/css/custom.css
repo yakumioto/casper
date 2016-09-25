@@ -1,4 +1,4 @@
-body, button, input, select, textarea { color: #444; font-family: 'Alegreya Sans', 'Noto Sans', 'Segoe UI', 'Microsoft Yahei', 'Microsoft Jhenghei', sans-serif; outline: 0; }
+body, button, input, select, textarea { font-family: 'Noto Sans', 'Segoe UI', 'Microsoft Yahei', 'Microsoft Jhenghei', sans-serif; outline: 0; }
 
 body { text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);}
 
