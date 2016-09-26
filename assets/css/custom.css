@@ -9,25 +9,11 @@
     font-weight: normal;
 }
 
-@font-face {
-    font-family: VisbyRoundCF-Light;
-    src: url("../fonts/visbyround/VisbyRoundCF-Light.woff") format('woff'), url("../fonts/visbyround/VisbyRoundCF-Light.ttf") format('truetype'), url("../fonts/visbyround/VisbyRoundCF-Light.svg#VisbyRoundCF-Light") format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: visbyround;
-    src: url("../fonts/visbyround/visbyround.eot");
-    src: url("../fonts/visbyround/visbyround.woff2") format('woff2'), url("../fonts/visbyround/visbyround.eot?#iefix") format('embedded-opentype');
-    font-weight: 400;
-    font-style: normal
-}
-
 body {
     font-size: 16px;
     font-family: Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC","Hiragino Sans GB",Simsun,sans-self;
     line-height: 1.6;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
 }
 
 .post-content a {
