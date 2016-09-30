@@ -17,7 +17,8 @@ body {
 }
 
 .post-content a {
-    color: #fcc9b9;
+    color: #FCC9B9;
+    text-shadow: 0px 0px 1px rgba(57, 52, 50, 0.25);
     word-break: break-all;
     text-decoration: none;
 }
@@ -65,7 +66,7 @@ pre {
     border: 1px solid transparent;
     border-radius: 4px;
 }
-,
+
 .disqus-notice {
     display: block;
     padding: 9px 9px;
