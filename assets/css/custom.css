@@ -25,12 +25,12 @@ pre {
 }
 
 .page-title {
-    color: rgba(252, 201, 185, 0.8);
+    color: rgba(0, 0, 0);
 }
 
 .page-description {
     font-weight: bold;
-    color: rgba(252, 201, 185, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     text-shadow: 0px 0px 1px rgba(23, 20, 18, 0.25);
 }
 
@@ -63,7 +63,6 @@ pre {
     font-size: 1.6rem;
     text-align: center;
     border: #e7eef2 1px solid;
-    color: rgba(252, 201, 185, 1);
     text-shadow: 0px 0px 1px rgba(57, 52, 50, 0.25);
     border-radius: 4px;
 }
