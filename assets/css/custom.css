@@ -24,6 +24,10 @@ pre {
     color: #525252;
 }
 
+.page-title {
+    color: rgba(252, 201, 185, 0.8);
+}
+
 .page-description {
     font-weight: bold;
     color: rgba(252, 201, 185, 0.8);
