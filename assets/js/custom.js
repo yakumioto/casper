@@ -11,7 +11,7 @@ hljs.initHighlightingOnLoad();
 
 var disqus = {
   load : function disqus(){
-      var disqus_shortname = 'mashiros';
+      var disqus_shortname = 'yakumioto';
       if (typeof DISQUS !== 'object') {
         (function () {
             var s = document.createElement('script'); s.async = true;
