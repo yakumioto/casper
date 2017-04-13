@@ -5,12 +5,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Roboto Slab', 'Monda', Georgia, 'PingFang SC', 'Microsoft YaHei', sans-serif; line-height: 1.5; }
-h1 { font-size: 28px; line-height: 1.8; border-bottom: 1px dashed #E0E0E0; }
+h1 { font-size: 28px; line-height: 1.8;}
 h2 { font-size: 24px; }
 h3 { font-size: 22px; }
 h4 { font-size: 20px; }
 h5 { font-size: 18px; }
 h6 { font-size: 16px; }
+
+.page-title {
+    color: #444;
+}
+
+.page-description {
+    color: #444;
+}
 
 pre {
     color: #525252;
