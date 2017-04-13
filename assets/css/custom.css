@@ -1,9 +1,19 @@
 body {
-    font-size: 15px;
-    font-family: VisbyRoundCF-Light,Helvetica Neue,Arial,visbyround;
-    color: #34495e;
-    line-height: 1.5;
+    font-family: 'Alegreya', Georgia, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    color: #444;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto Slab', 'Monda', Georgia, 'PingFang SC', 'Microsoft YaHei', sans-serif; line-height: 1.5; }
+h1 { font-size: 28px; line-height: 1.8; border-bottom: 1px dashed #E0E0E0; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+pre {
+    color: #525252;
 }
 
 pre, code {
@@ -11,20 +21,6 @@ pre, code {
     line-height: 24px;
     word-wrap: normal;
     font-family: 'Roboto Mono','Inconsolata',monospace;
-}
-
-pre {
-    color: #525252;
-}
-
-.page-title {
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.page-description {
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.8);
-    text-shadow: 0px 0px 1px rgba(23, 20, 18, 0.25);
 }
 
 .btn {
